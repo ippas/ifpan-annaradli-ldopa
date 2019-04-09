@@ -54,3 +54,5 @@ L6starL_2
 L6starP_1      
 L6starP_2 
 
+### software + versions + installations
+1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
