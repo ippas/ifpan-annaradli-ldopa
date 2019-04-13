@@ -7,7 +7,7 @@
 * Experimental group: Rats with 6-OHDA-induced Parkinson symptoms (left hemisphere) treated with L-DOPA
 * Control group: Rats with 6-OHDA-induced Parkinson symptoms (left hemisphere)
 
-### Animal list 
+### Animal list
 exp: L1star, L2star, L4star, L5star, L6star
 ctrl: L10star, L11star, L23, L32, L39
 
@@ -52,7 +52,11 @@ L5starP_2
 L6starL_1      
 L6starL_2      
 L6starP_1      
-L6starP_2 
+L6starP_2
 
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
+2.
+
+### attached files description
+1.
