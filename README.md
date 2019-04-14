@@ -59,4 +59,4 @@ L6starP_2
 2.
 
 ### attached files description
-1.
+1. list_and_count_reads.sh - simple script that lists files, counts reads and makes a .md table
