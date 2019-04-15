@@ -54,9 +54,14 @@ L6starL_2
 L6starP_1      
 L6starP_2
 
+### sample quality control
+1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached script `run_fastqc.sh`
+
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
-2.
+2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
+
 
 ### attached files description
 1. list_and_count_reads.sh - simple script that lists files, counts reads and makes a .md table
+2. run_fastqc.sh - run fastqc on .fq.gz samples in current directory using pegi3/fastqc image
