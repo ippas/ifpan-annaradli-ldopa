@@ -1,4 +1,4 @@
-# ifpan_annaradli_ldopa
+# ifpan-annaradli-ldopa
 
 ## Rat model of Parkinson - Medial Forebrain Bundle RNAseq (tissue collected from both hemispheres, n = 5 group)
 
