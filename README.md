@@ -12,7 +12,7 @@ exp: L1star, L2star, L4star, L5star, L6star
 ctrl: L10star, L11star, L23, L32, L39
 
 ### Sample list (sample stored in /home/ifpan/projects/ifpan-annaradli-ldopa/data/fq)
-see attached filest-and-reads.md
+see attached files-and-reads.md
 
 ### sample quality control
 1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached script `run-fastqc.sh`
