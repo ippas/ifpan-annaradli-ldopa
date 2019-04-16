@@ -11,7 +11,7 @@
 exp: L1star, L2star, L4star, L5star, L6star
 ctrl: L10star, L11star, L23, L32, L39
 
-### Sample list (sample stored in /home/ifpan/projects/annaradli_ldopa/data/fq_files)
+### Sample list (sample stored in /home/ifpan/projects/ifpan-annaradli-ldopa/data/fq)
 
 L10starL_1      
 L10starL_2      
@@ -55,13 +55,16 @@ L6starP_1
 L6starP_2
 
 ### sample quality control
-1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached script `run_fastqc.sh`
+1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached script `run-fastqc.sh`
 
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
 
 
-### attached files description
-1. list_and_count_reads.sh - simple script that lists files, counts reads and makes a .md table
-2. run_fastqc.sh - run fastqc on .fq.gz samples in current directory using pegi3/fastqc image
+### attached files 
+1. files-and-reads.md - list of all the samples, with read numbers
+2. list-and-count-reads.sh - simple script that lists files, counts reads and makes a .md table
+3. run-fastqc.sh - run fastqc on .fq.gz samples in current directory using pegi3/fastqc image
+4. fastqc-dockerfile - dockerfiles of the pegi3/fastqc image
+
