@@ -1,0 +1,82 @@
+| file-name | basic-stats | per-base-seq-quality | per-tile-seq-quality | per-seq-quality | per-base-seq-content | per-base-n-content | seq-lenght-distribution | seq-duplication-levels | overrepresented-seq | adapter-content |
+ -----------------------
+ | L10starL_1_fastqc | PASS | PASS | FAIL | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L10starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L10starP_1_fastqc | PASS | PASS | FAIL | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L10starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | PASS |
+ -----------------------
+ | L11starL_1_fastqc | PASS | PASS | FAIL | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L11starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L11starP_1_fastqc | PASS | PASS | FAIL | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L11starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L1starL_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L1starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L1starP_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L1starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+  -----------------------
+| L23L_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L23L_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | PASS |
+-----------------------
+| L23P_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L23P_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | PASS |
+-----------------------
+| L2starL_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L2starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L2starP_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | WARN |
+-----------------------
+| L2starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | WARN |
+-----------------------
+| L32L_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L32L_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L32P_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L32P_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L39L_1_fastqc | PASS | PASS | FAIL | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L39L_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L39P_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L39P_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L4starL_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L4starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | PASS |
+ -----------------------
+ | L4starP_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+ -----------------------
+ | L4starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | PASS |
+ -----------------------
+ | L5starL_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L5starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | PASS |
+-----------------------
+| L5starP_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | WARN |
+-----------------------
+| L5starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | WARN | WARN |
+-----------------------
+| L6starL_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L6starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L6starP_1_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+-----------------------
+| L6starP_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS |
+--------------
