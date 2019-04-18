@@ -1,5 +1,4 @@
 | file-name | basic-stats | per-base-seq-quality | per-tile-seq-quality | per-seq-quality | per-base-seq-content | per-base-n-content | seq-lenght-distribution | seq-duplication-levels | overrepresented-seq | adapter-content |
-
  | ------------- | ------------- | --------- | ---------- | ------------ | --------- | -------- | ------- | ------ | ----------- | --------- | 
  | L10starL_1_fastqc | PASS | PASS | FAIL | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS | 
  | L10starL_2_fastqc | PASS | PASS | PASS | PASS | WARN | WARN | PASS | PASS | FAIL | PASS | PASS | 
