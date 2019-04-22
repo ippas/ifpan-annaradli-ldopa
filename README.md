@@ -66,6 +66,7 @@
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
 3. hisat2 2.1.0 [docker image pulled from docker hub](https://hub.docker.com/r/zlskidmore/hisat2)
+4. [rat reference genome rn6.fa.gz from UCSC genome database](hgdownload.cse.ucsc.edu/goldenPath/rn6/bigZips)
 
 
 ### attached files
