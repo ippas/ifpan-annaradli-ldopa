@@ -65,10 +65,12 @@
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
+3. hisat2 2.1.0 [docker image pulled from docker hub](https://hub.docker.com/r/zlskidmore/hisat2)
 
 
 ### attached files
 1. [script to generate .md table of samples with reads](generate-sample-info-table.sh)
 2. [sh to run fastqc on .fq.gz samples in current directory using pegi3/fastqc image](run-fastqc.sh)
-3. [dockerfiles of the pegi3/fastqc image](fastqc-dockerfile)
+3. [dockerfile of the pegi3/fastqc image](fastqc-dockerfile)
 4. [script to generate .md table with qc report](generate-summary-qc-table.sh) and [the qc report](qc-report.md)
+5. [dockerfile of the zlskidmore/hisat2 image](hisat2-dockerfile)
