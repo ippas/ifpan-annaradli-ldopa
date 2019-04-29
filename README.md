@@ -66,7 +66,7 @@
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
 3. hisat2 2.1.0 [docker image pulled from docker hub](https://hub.docker.com/r/zlskidmore/hisat2)
-4. [hisat2 index of rat reference genome rn6.tar.gz](ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data)
+4. hisat2 index of rat reference genome rn6.tar.gz was downloaded from: ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/data
 
 
 ### attached files
