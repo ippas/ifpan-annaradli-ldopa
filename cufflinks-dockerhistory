@@ -1,0 +1,27 @@
+IMAGE               CREATED             CREATED BY                                      SIZE                COMMENT
+72644f4bf8ca        4 years ago         /bin/sh -c #(nop) ENV PATH=/home/vagrant/cuf…   0B
+<missing>           4 years ago         /bin/sh -c tar xvzf cufflinks-2.2.1.Linux_x8…   171MB
+<missing>           4 years ago         /bin/sh -c wget http://cufflinks.cbcb.umd.ed…   49.3MB
+<missing>           4 years ago         /bin/sh -c #(nop) WORKDIR /home/vagrant         0B
+<missing>           4 years ago         /bin/sh -c apt-get install -y make              7.7kB
+<missing>           4 years ago         /bin/sh -c apt-get install -y gcc g++           7.7kB
+<missing>           4 years ago         /bin/sh -c apt-get install -y wget              0B
+<missing>           4 years ago         /bin/sh -c apt-get update                       33.4MB
+<missing>           4 years ago         /bin/sh -c echo "deb http://archive.ubuntu.c…   59B
+<missing>           4 years ago         /bin/sh -c #(nop) MAINTAINER David Weng weng…   0B
+<missing>           4 years ago         /bin/sh -c #(nop) CMD [bash]                    0B
+<missing>           4 years ago         /bin/sh -c #(nop) WORKDIR /data                 0B
+<missing>           4 years ago         /bin/sh -c #(nop) VOLUME ["/data"]              0B
+<missing>           4 years ago         /bin/sh -c apt-get install -y python python-…   59.4MB
+<missing>           4 years ago         /bin/sh -c #(nop) CMD [bash]                    0B
+<missing>           4 years ago         /bin/sh -c #(nop) WORKDIR /root                 0B
+<missing>           4 years ago         /bin/sh -c #(nop) ENV HOME=/root                0B
+<missing>           4 years ago         /bin/sh -c #(nop) ADD dir:25ad861e29e9308d26…   80.6kB
+<missing>           4 years ago         /bin/sh -c #(nop) ADD file:2e9e3e21aa18c48f9…   532B
+<missing>           4 years ago         /bin/sh -c #(nop) ADD file:6b777c6f5a088017b…   1.14kB
+<missing>           4 years ago         /bin/sh -c sed -i 's/# \(.*multiverse$\)/\1/…   318MB
+<missing>           5 years ago         /bin/sh -c apt-get update && apt-get install…   73.3MB
+<missing>           5 years ago         /bin/sh -c sed -i 's/^#\s*\(deb.*universe\)$…   1.9kB
+<missing>           5 years ago         /bin/sh -c echo '#!/bin/sh' > /usr/sbin/poli…   194kB
+<missing>           5 years ago         /bin/sh -c #(nop) ADD file:175959bb3b959f73e…   192MB
+<missing>           5 years ago                                                         0B                  Imported from -
