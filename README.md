@@ -79,6 +79,6 @@
 5. [dockerfile of the zlskidmore/hisat2 image](hisat2-dockerfile)
 6. [hisat2 alignment summary for all the samples](hisat2-report.md) generated with [this script](generate-hisat2-report.sh)
 7. [samtools docker file](samtools-dockerfile)
-8. [Script to sort SAM files](sort-sam.sh)
+8. [script to sort .sam files and convert to .bam](sort-sam.sh)
 9. As there was no dockerfile on the cufflinks image [docker-history](cufflinks-dockerhistory) was downloaded as a proxy.
 10. [Script to run cuffquant](run-cuffquant.sh)
