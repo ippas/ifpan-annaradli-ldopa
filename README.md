@@ -56,6 +56,8 @@
  | L6starP_1 | exp | 7200807 | 1800201 |  |
  | L6starP_2 | exp | 7349488 | 1837372 |  |
 
+### sample analysis
+All samples were aligned to a rat reference genome (rn6). For initial analysis transcripts were quantified by cuffquant and then the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp
 
 ### sample quality control
 1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached [script](run-fastqc.sh)
@@ -82,3 +84,4 @@
 8. [script to sort .sam files and convert to .bam](sort-sam.sh)
 9. As there was no dockerfile on the cufflinks image [docker-history](cufflinks-dockerhistory) was downloaded as a proxy.
 10. [Script to run cuffquant](run-cuffquant.sh)
+11. [Script to run cuffdiff](run-cuffdiff.sh)
