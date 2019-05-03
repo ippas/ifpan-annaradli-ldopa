@@ -1,5 +1,5 @@
 
-for SAMPLE in L10starL L10starP L11starL L11starP L1starP L1starP L23L L23P L2starL L2starP L32L L32P L39L L39P L4starL L4starP L5starP L5starL L6starL L6starP
+for SAMPLE in L10starL L10starP L11starL L11starP L1starL L1starP L23L L23P L2starL L2starP L32L L32P L39L L39P L4starL L4starP L5starP L5starL L6starL L6starP
 do sudo mv "$PWD/$SAMPLE.sort.bam/abundances.cxb" "$PWD/$SAMPLE-abundances.cxb"
 done
 
