@@ -3,6 +3,7 @@ sudo touch temp.txt
 sudo chmod 777 temp.txt
 sudo touch temp2.txt
 sudo chmod 777 temp2.txt
+
 for FILE in `ls fq/*.fq.gz`
 do
 echo $FILE |  cut -d "_" -f 1 | tr -d "/fq" >> temp.txt

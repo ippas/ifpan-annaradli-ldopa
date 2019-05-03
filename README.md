@@ -57,7 +57,7 @@
  | L6starP_2 | exp | 7349488 | 1837372 |  |
 
 ### sample analysis
-All samples were aligned to a rat reference genome (rn6). For initial analysis transcripts were quantified by cuffquant and then the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff and transcripts normalised with cuffnorm.
+All samples were aligned to a rat reference genome (rn6) with hisat2. For initial analysis transcripts were quantified by cuffquant and then the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff and transcripts normalised with cuffnorm.
 
 
 ### sample quality control
@@ -68,8 +68,8 @@ All samples were aligned to a rat reference genome (rn6). For initial analysis t
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
-3. hisat2 2.1.0 [docker image pulled from docker hub](https://hub.docker.com/r/biocontainers/hisat2)
-4. Rat reference genome `Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz` was downloaded from [ensembl](ftp://ftp.ensembl.org/pub/release-96/fasta/rattus_norvegicus/dna/)
+3. Hisat2 2.0.5 for indexing [docker image pulled from docker hub](https://hub.docker.com/r/biocontainers/hisat2) and hisat2 2.1.0 for aligment [docker image from docker hub](https://hub.docker.com/r/zlskidmore/hisat2)
+4. Rat reference genome `Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa.gz` to build hisa2 index was downloaded from [ensembl](ftp://ftp.ensembl.org/pub/release-96/fasta/rattus_norvegicus/dna/)
 5. gene transfer file `Rattus_norvegicus.Rnor_6.0.90.gtf.gz` for cufflinks was downloaded from [ensembl](ftp://ftp.ensembl.org/pub/release-90/gtf/rattus_norvegicus/)
 6. samtools image v 1.9 [pulled from docker hub](https://hub.docker.com/r/zlskidmore/samtools)
 7. cufflinks package image v 2.2.1 [pulled from docker hub](https://hub.docker.com/r/octavianus90/cufflinks_final)
@@ -80,10 +80,12 @@ All samples were aligned to a rat reference genome (rn6). For initial analysis t
 3. [dockerfile of the pegi3/fastqc image](fastqc-dockerfile)
 4. [script to generate .md table with qc report](generate-summary-qc-table.sh) and [the qc report](qc-report.md)
 5. [indexing the reference genome with hisat2](buid-hisat2-index.sh)
-5. [hisat2 alignment summary for all the samples](hisat2-report.md) generated with [this script](generate-hisat2-report.sh)
-6. [samtools docker file](samtools-dockerfile)
-7. [script to sort .sam files and convert to .bam](sort-sam.sh)
-8. As there was no dockerfile on the cufflinks image [docker-history](cufflinks-dockerhistory) was downloaded as a proxy.
-9. [Script to run cuffquant](run-cuffquant.sh)
-10. [Commands to run cuffdiff](run-cuffdiff.sh)
-11. [Running cuffnorm](run-cuffnorm)
+6. dockerfiles of hisat2 used for [indexing](hisat2-dockerfile-forindexing) and [aligment] (hisat2-dockerfile-foralignment)
+7. [script to run hisat2 on all the sample](run-hisat2.sh)
+8. [hisat2 alignment summary for all the samples](hisat2-report.md) generated with [this script](generate-hisat2-report.sh)
+9. [samtools docker file](samtools-dockerfile)
+10. [script to sort .sam files and convert to .bam](sort-sam.sh)
+11. As there was no dockerfile on the cufflinks image [docker-history](cufflinks-dockerhistory) was downloaded as a proxy.
+12. [Script to run cuffquant](run-cuffquant.sh)
+13. [Commands to run cuffdiff](run-cuffdiff)
+14. [Running cuffnorm](run-cuffnorm)
