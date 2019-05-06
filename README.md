@@ -89,3 +89,4 @@ All samples were aligned to a rat reference genome (rn6) with hisat2. For initia
 12. [Script to run cuffquant](run-cuffquant.sh)
 13. [Commands to run cuffdiff](run-cuffdiff)
 14. [Running cuffnorm](run-cuffnorm)
+15. [indexing .bam to view in IGV](bam-to-bai.sh)
