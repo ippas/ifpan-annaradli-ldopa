@@ -73,6 +73,7 @@ All samples were aligned to a rat reference genome (rn6) with hisat2. For initia
 5. gene transfer file `Rattus_norvegicus.Rnor_6.0.90.gtf.gz` for cufflinks was downloaded from [ensembl](ftp://ftp.ensembl.org/pub/release-90/gtf/rattus_norvegicus/)
 6. samtools image v 1.9 [pulled from docker hub](https://hub.docker.com/r/zlskidmore/samtools)
 7. cufflinks package image v 2.2.1 [pulled from docker hub](https://hub.docker.com/r/octavianus90/cufflinks_final)
+8. Picard [pulled from docker hub](https://hub.docker.com/r/broadinstitute/picard)
 
 ### attached files
 1. [script to generate .md table of samples with reads](generate-sample-info-table.sh)
