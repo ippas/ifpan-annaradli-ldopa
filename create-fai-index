@@ -1,0 +1,1 @@
+docker run --rm -v $PWD:/data zlskidmore/samtools:1.9 samtools faidx /data/Rattus_norvegicus.Rnor_6.0.dna.toplevel.fa 
