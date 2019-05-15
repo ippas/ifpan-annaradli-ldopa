@@ -57,7 +57,7 @@
  | L6starP_2 | exp | 7349488 | 1837372 |  |
 
 ### sample analysis
-All samples were aligned to a rat reference genome (rn6) with hisat2. For initial analysis transcripts were quantified by cuffquant and then the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff and transcripts normalised with cuffnorm.
+All samples were aligned to a rat reference genome (rn6) with hisat2. For initial analysis transcripts were quantified by cuffquant and then the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff. Transcripts counts normalised with cuffnorm were analysed with EdgeR to two-way analyses.
 
 
 ### sample quality control
