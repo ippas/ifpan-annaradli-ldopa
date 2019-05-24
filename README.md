@@ -1,15 +1,17 @@
 # ifpan-annaradli-ldopa
 
-## Rat model of Parkinson - Medial Forebrain Bundle RNAseq (tissue collected from both hemispheres, n = 5 group)
+## Rat model of Parkinson - Medial Forebrain Bundle RNAseq (tissue collected from both hemispheres, n = 5 group, left(L):ipsilateral, right(P):contralateral)
 
 ### Experimental scheme:
-
 * Experimental group: Rats with 6-OHDA-induced Parkinson symptoms (left hemisphere) treated with L-DOPA
 * Control group: Rats with 6-OHDA-induced Parkinson symptoms (left hemisphere)
 
 ### Animal list
 * exp: L1star, L2star, L4star, L5star, L6star
 * ctrl: L10star, L11star, L23, L32, L39
+
+### Summary of data analysis
+All samples were checked for quality with fastqc and aligned to a rat reference genome (rn6) with hisat2. Cufflinks package was used to quantify (cuffquant) and normalise (cuffnorm) transcripts to fpkms. For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff).
 
 ### Sample list (sample stored in /home/ifpan/projects/ifpan-annaradli-ldopa/data/fq)
 
@@ -55,11 +57,7 @@
  | L6starL_2 | exp | 6593315 | 1648328 |  |
  | L6starP_1 | exp | 7200807 | 1800201 |  |
  | L6starP_2 | exp | 7349488 | 1837372 |  |
-
-### sample analysis
-All samples were aligned to a rat reference genome (rn6) with hisat2. For initial analysis transcripts were quantified by cuffquant and then the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff. Transcripts counts normalised with cuffnorm were analysed with EdgeR to two-way analyses.
-
-
+ 
 ### sample quality control
 1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached [script](run-fastqc.sh)
 2. [Generation of a report](generate-summary-qc-table.sh)
