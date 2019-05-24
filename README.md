@@ -13,7 +13,7 @@
 ### Summary of data analysis
 All samples were checked for quality with fastqc and aligned to a rat reference genome (rn6) with hisat2. Cufflinks package was used to quantify (cuffquant) and normalise (cuffnorm) transcripts to fpkms. For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff).
 
-![top differentislly expressed genes](http://github.com/ippas/ifpan-annaradli-ldopa/blob/master/selected-genes-log.eps)
+![top differentially expressed genes](http://github.com/ippas/ifpan-annaradli-ldopa/blob/master/selected-genes-log.jpg)
 
 ### Sample list (sample stored in /home/ifpan/projects/ifpan-annaradli-ldopa/data/fq)
 
