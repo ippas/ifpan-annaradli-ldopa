@@ -14,10 +14,10 @@
 *All samples were checked for quality with fastQC v0.11.8 and aligned to a rat reference genome (rn6 from Ensembl database) with hisat2 2.1.0. Cufflinks v 2.2.1 package and GTF from the Ensembl gene database were used to quantify (cuffquant) and normalize (cuffnorm) transcripts to fpkms (Fragments Per Kilobase of transcript per Million fragments mapped). All statisical analyses were performed with R software v3.4. Statistical significance was tested using ANOVA on log2(1 + x) values with false discovery rate adjustment ("FDR" method of p.adjust in R 3.4). Only transcipts with log2(1 + x) > 1 were analysed for significance. Transcript annotation and classification was performed using the BioMart interface to the Ensembl database.*
 
 ## Main results
-list of all genes, abundance of their transcripts is avalable [here](all-genes.csv)
+list of all genes with abundance of their transcripts and two-way ANOVA results if applicable is avalable [here](all-genes.csv)
 
 ![top differentially expressed genes](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/selected-genes-log.jpg)
-**heatmap (log2(1+fpmk) values are plotted) of top differentially expressed genes.**
+**heatmap of top differentially expressed genes (log2(1+fpmk) values were plotted)**
 
 ### initial analysis info
 For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff).
