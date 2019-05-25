@@ -10,10 +10,20 @@
 * exp: L1star, L2star, L4star, L5star, L6star
 * ctrl: L10star, L11star, L23, L32, L39
 
-### Summary of data analysis
-All samples were checked for quality with fastqc and aligned to a rat reference genome (rn6) with hisat2. Cufflinks package was used to quantify (cuffquant) and normalise (cuffnorm) transcripts to fpkms. For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff).
+## Method
+*All samples were checked for quality with fastQC v0.11.8 and aligned to a rat reference genome (rn6 from Ensembl database) with hisat2 2.1.0. Cufflinks v 2.2.1 package and GTF from the Ensembl gene database were used to quantify (cuffquant) and normalize (cuffnorm) transcripts to fpkms (Fragments Per Kilobase of transcript per Million fragments mapped). All statisical analyses were performed with R software v3.4. Statistical significance was tested using ANOVA on log2(1 + x) values with false discovery rate adjustment ("FDR" method of p.adjust in R 3.4). Only transcipts with log2(1 + x) > 1 were analysed for significance. Transcript annotation and classification was performed using the BioMart interface to the Ensembl database.*
+
+## Main results
+list of all genes, abundance of their transcripts is avalable [here](all-genes.csv)
 
 ![top differentially expressed genes](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/selected-genes-log.jpg)
+**heatmap (log2(1+fpmk) values are plotted) of top differentially expressed genes.**
+
+### initial analysis info
+For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff).
+
+### sample quality control extra info
+Warnings were not put in the table above and fails in sequence duplication levels were ignored. See [full table](qc-report.md). Fails in per tile sequence quality are common for RNAseq and should not cause major problems.
 
 ### Sample list (sample stored in /home/ifpan/projects/ifpan-annaradli-ldopa/data/fq)
 
@@ -60,11 +70,6 @@ All samples were checked for quality with fastqc and aligned to a rat reference 
  | L6starP_1 | exp | 7200807 | 1800201 |  |
  | L6starP_2 | exp | 7349488 | 1837372 |  |
  
-### sample quality control
-1. Running qc using the pulled docker image: [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc), see atached [script](run-fastqc.sh)
-2. [Generation of a report](generate-summary-qc-table.sh)
-3. Warnings were not put in the table above and fails in sequence duplication levels were ignored (common for RNAseq). See [full table](qc-report.md). Fails in per tile sequence quality are common for RNAseq and should not cause major problems.
-
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
@@ -77,7 +82,7 @@ All samples were checked for quality with fastqc and aligned to a rat reference 
 
 ### attached files
 1. [script to generate .md table of samples with reads](generate-sample-info-table.sh)
-2. [sh to run fastqc on .fq.gz samples in current directory using pegi3/fastqc image](run-fastqc.sh)
+2. [sh to run fastqc on .fq.gz samples in current directory using pegi3/fastqc image](run-fastqc.sh), [detailed instructions here](https://hub.docker.com/r/pegi3s/fastqc)
 3. [dockerfile of the pegi3/fastqc image](fastqc-dockerfile)
 4. [script to generate .md table with qc report](generate-summary-qc-table.sh) and [the qc report](qc-report.md)
 5. [indexing the reference genome with hisat2](buid-hisat2-index.sh)
@@ -91,3 +96,6 @@ All samples were checked for quality with fastqc and aligned to a rat reference 
 13. [Commands to run cuffdiff](run-cuffdiff)
 14. [Running cuffnorm](run-cuffnorm)
 15. [indexing .bam to view in IGV](bam-to-bai.sh)
+16. [R code to generate results](rna-seq-analysis.R)
+17. [table with fdr of all genes](all-genes.csv) [and of selected genes](selected-genes-log.csv)
+18. heatmap of selected genes in [high resolution pdf](selected-genes-log.pdf) and [low resolution jpg](selected-genes-log.jpg)
