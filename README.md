@@ -19,8 +19,8 @@ list of all genes with abundance of their transcripts and two-way ANOVA results 
 ![top differentially expressed genes](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/selected-genes-log.jpg)
 **heatmap of top differentially expressed genes (log2(1+fpmk) values were plotted)**
 
-### initial analysis info
-For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff).
+### extra analysis info
+For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff). I have also attempted to find genes which expression would correlate with behavior (autorotations) but did not find any.
 
 ### sample quality control extra info
 Warnings were not put in the table above and fails in sequence duplication levels were ignored. See [full table](qc-report.md). Fails in per tile sequence quality are common for RNAseq and should not cause major problems.
@@ -99,3 +99,4 @@ Warnings were not put in the table above and fails in sequence duplication level
 16. [R code to generate results](rna-seq-analysis.R)
 17. [table with fdr of all genes](all-genes.csv) [and of selected genes](selected-genes-log.csv)
 18. heatmap of selected genes in [high resolution pdf](selected-genes-log.pdf) and [low resolution jpg](selected-genes-log.jpg)
+19. [code to correlate gene expression with autorotations of rats after apomorphine challenges](correlation-with-autorotations.R)
