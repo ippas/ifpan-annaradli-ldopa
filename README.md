@@ -105,3 +105,5 @@ Warnings were not put in the table above and fails in sequence duplication level
 17. [table with fdr of all genes](all-genes.csv) [and of selected genes](selected-genes-log.csv)
 18. heatmap of selected genes in [high resolution pdf](selected-genes-log.pdf) and [low resolution jpg](selected-genes-log.jpg)
 19. [code to correlate gene expression with autorotations of rats after apomorphine challenges](correlation-with-autorotations.R)
+20. [code to analyse transcript abundance of top 48 genes](transcrip-analysis.R) and [the results](selected-genes-isoforms.csv) with two sashmi plots to illustrate: [Sgk1](sgk1.png) and [Zfp189](zfp189.png)
+
