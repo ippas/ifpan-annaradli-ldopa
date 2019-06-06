@@ -20,7 +20,12 @@ list of all genes with abundance of their transcripts and two-way ANOVA results 
 **heatmap of top differentially expressed genes (log2(1+fpmk) values were plotted)**
 
 ### extra analysis info
-For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff). I have also attempted to find genes which expression would correlate with behavior (autorotations) but did not find any.
+For initial exploratory analysis transcripts from the following groups have been compared: L ctrl vs L exp, P ctrl vs P exp, L vs P ctrl, L vs P exp with cuffdiff (results available on server: /home/ifpan/projects/ifpan-annaradli-ldopa/data/cuffdiff). I have also attempted to find genes which expression would correlate with behavior (autorotations) but did not find any. Expression of various transcripts was also analysed and the data is available [here](selected-genes-isoforms.csv). Below you can find two example sashimi plots of genes with more than one transcript (Sgk1 and Zfp189).
+
+
+![Sgk1 sashimi plot](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/sgk1.png)
+
+![Zfp189 sashimi plot](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/zfp189.png)
 
 ### sample quality control extra info
 Warnings were not put in the table above and fails in sequence duplication levels were ignored. See [full table](qc-report.md). Fails in per tile sequence quality are common for RNAseq and should not cause major problems.
