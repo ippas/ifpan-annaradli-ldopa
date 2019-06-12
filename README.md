@@ -14,7 +14,7 @@
 *All samples were checked for quality with fastQC v0.11.8 and aligned to a rat reference genome (rn6 from Ensembl database) with hisat2 2.1.0. Cufflinks v 2.2.1 package and GTF from the Ensembl gene database were used to quantify (cuffquant) and normalize (cuffnorm) transcripts to fpkms (Fragments Per Kilobase of transcript per Million fragments mapped). All statisical analyses were performed with R software v3.4. Statistical significance was tested using ANOVA on log2(1 + x) values with false discovery rate adjustment ("FDR" method of p.adjust in R 3.4). Only transcipts with log2(1 + x) > 1 were analysed for significance. Transcript annotation and classification was performed using the BioMart interface to the Ensembl database.*
 
 ## Main results
-list of all genes with abundance of their transcripts and two-way ANOVA results if applicable is avalable [here](all-genes.csv). Examples of alignments of files from each group can be viewed [here](http://149.156.177.112/projects/ifpan-annaradli-ldopa/alignments.html)
+list of all genes with abundance of their transcripts and two-way ANOVA results if applicable is avalable [here](all-genes.csv). Examples of alignments of files from each group can be viewed [here](http://149.156.177.112/projects/ifpan-annaradli-ldopa/alignments.html). Example raw data from four samples (one from each group) can be viewed interactively [here](http://149.156.177.112/projects/ifpan-annaradli-ldopa/alignments.html).
 
 ![top differentially expressed genes](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/selected-genes-log.jpg)
 **heatmap of top differentially expressed genes (log2(1+fpmk) values were plotted)**
@@ -74,7 +74,7 @@ Warnings were not put in the table above and fails in sequence duplication level
  | L6starL_2 | exp | 6593315 | 1648328 |  |
  | L6starP_1 | exp | 7200807 | 1800201 |  |
  | L6starP_2 | exp | 7349488 | 1837372 |  |
- 
+
 ### software + versions + installations
 1. [docker installation](https://gist.github.com/gosborcz/f1f3dbd7aa256e26ae1e8ce33fd30509)
 2. [pulling docker image with fastqc](https://gist.github.com/gosborcz/1735c2533061354756b05154519972bf), fastqc version=0.11.8
@@ -106,4 +106,4 @@ Warnings were not put in the table above and fails in sequence duplication level
 18. heatmap of selected genes in [high resolution pdf](selected-genes-log.pdf) and [low resolution jpg](selected-genes-log.jpg)
 19. [code to correlate gene expression with autorotations of rats after apomorphine challenges](correlation-with-autorotations.R)
 20. [code to analyse transcript abundance of top 48 genes](transcript-analysis.R) and [the results](selected-genes-isoforms.csv) with two sashmi plots to illustrate: [Sgk1](sgk1.png) and [Zfp189](zfp189.png)
-
+21. [html code for the interactive viewer](alignments.html). The main code is at the bottom of the file (large style section at the begining). The interactive version can be viewed[here](http://149.156.177.112/projects/ifpan-annaradli-ldopa/alignments.html)
