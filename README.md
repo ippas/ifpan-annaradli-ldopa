@@ -106,4 +106,4 @@ Warnings were not put in the table above and fails in sequence duplication level
 18. heatmap of selected genes in [high resolution pdf](selected-genes-log.pdf) and [low resolution jpg](selected-genes-log.jpg)
 19. [code to correlate gene expression with autorotations of rats after apomorphine challenges](correlation-with-autorotations.R)
 20. [code to analyse transcript abundance of top 48 genes](transcript-analysis.R) and [the results](selected-genes-isoforms.csv) with two sashmi plots to illustrate: [Sgk1](sgk1.png) and [Zfp189](zfp189.png)
-21. [html code for the interactive viewer](alignments.html). The main code is at the bottom of the file (large style section at the begining). The interactive version can be viewed[here](http://149.156.177.112/projects/ifpan-annaradli-ldopa/alignments.html)
+21. [html code for the interactive viewer](alignments.html). The main code is at the bottom of the file (large style section at the begining). The interactive version can be viewed [here](http://149.156.177.112/projects/ifpan-annaradli-ldopa/alignments.html)
