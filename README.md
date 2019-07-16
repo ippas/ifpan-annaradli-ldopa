@@ -1,6 +1,6 @@
 # ifpan-annaradli-ldopa
 
-## Rat model of Parkinson - Prefrontal Cortex RNAseq (tissue collected from both hemispheres, n = 5 group, left(L):ipsilateral, right(P):contralateral, 6-OHDHA applied to Medial Forebrain Bundle)
+## Rat model of Parkinson - Prefrontal Cortex RNAseq (tissue collected from both hemispheres, n = 5 group, left(L):ipsilateral, right(P):contralateral, 6-OHDA applied to Medial Forebrain Bundle)
 
 ### Experimental scheme:
 * Experimental group: Rats with 6-OHDA-induced Parkinson symptoms (left hemisphere) treated with L-DOPA
