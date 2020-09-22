@@ -13,5 +13,6 @@ docker run -w $PWD -v $PWD:$PWD guigolab/ggsashimi -b bam_list.tsv -o mmp9 -c 3:
 
 3. Coordinates: 
 
-* *Sgk1* : 1:24185435-24302298
+* *Sgk1* : 1:24185435-24302298 
+for Sgk1 part 1 : 1:24185435-24192200; for part 2: 1:24214000-24256970 
 * *Mmp9* : 3:161413298-161421520
