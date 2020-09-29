@@ -27,7 +27,7 @@ For initial exploratory analysis transcripts from the following groups have been
 
 ![Zfp189 sashimi plot](https://raw.githubusercontent.com/ippas/ifpan-annaradli-ldopa/master/zfp189.png)
 
-Supplemental sashimi plots were generates with [this script](sashimi_plots.MD)
+Supplemental sashimi plots were generates with [this script](sashimi_plots.MD). Isoform analysis was done [with R](isoforms-analysis.R) similarly to gene analysis.
 
 ### sample quality control extra info
 Warnings were not put in the table above and fails in sequence duplication levels were ignored. See [full table](qc-report.md). Fails in per tile sequence quality are common for RNAseq and should not cause major problems.
